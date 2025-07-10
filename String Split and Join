@@ -1,0 +1,10 @@
+def split_and_join(line):
+    # Split the line into words and join with hyphens
+    words = line.split()
+    result = "-".join(words)
+    return result
+
+if __name__ == '__main__':
+    line = input()
+    result = split_and_join(line)
+    print(result)
